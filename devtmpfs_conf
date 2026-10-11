@@ -1,0 +1,4 @@
+# Support /dev
+CONFIG_DEVTMPFS=y
+# And mount it when the kernel boots
+CONFIG_DEVTMPFS_MOUNT=y
