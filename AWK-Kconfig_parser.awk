@@ -22,7 +22,7 @@ function emit_config() {
     printf "    \"depends_on\": %s,\n", (depends != "" ? "\"" depends "\"" : "null")
     printf "    \"visible_if\": %s,\n", (visible != "" ? "\"" visible "\"" : "null")
     printf "    \"selects\": %s,\n", (selects != "" ? "[" selects "]" : "[]")
-    printf "    \"implies\\": %s,\n", (implies != "" ? "[" implies "]" : "[]")
+    printf "    \"implies\": %s,\n", (implies != "" ? "[" implies "]" : "[]")
     printf "    \"defaults\": %s\n", (defaults != "" ? "[" defaults "]" : "[]")
     
     printf "  },\n"
